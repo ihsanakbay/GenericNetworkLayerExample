@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F99AF08F29460A5E00D81BB7 /* HomeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99AF08E29460A5E00D81BB7 /* HomeViewCell.swift */; };
 		F9CA8F732945036D0029B24B /* GenericNetworkLayerExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CA8F722945036D0029B24B /* GenericNetworkLayerExampleApp.swift */; };
-		F9CA8F752945036D0029B24B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CA8F742945036D0029B24B /* ContentView.swift */; };
+		F9CA8F752945036D0029B24B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CA8F742945036D0029B24B /* HomeView.swift */; };
 		F9CA8F772945036E0029B24B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9CA8F762945036E0029B24B /* Assets.xcassets */; };
 		F9CA8F7A2945036E0029B24B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9CA8F792945036E0029B24B /* Preview Assets.xcassets */; };
-		F9CA8F842945036E0029B24B /* GenericNetworkLayerExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CA8F832945036E0029B24B /* GenericNetworkLayerExampleTests.swift */; };
-		F9CA8F8E2945036E0029B24B /* GenericNetworkLayerExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CA8F8D2945036E0029B24B /* GenericNetworkLayerExampleUITests.swift */; };
-		F9CA8F902945036E0029B24B /* GenericNetworkLayerExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CA8F8F2945036E0029B24B /* GenericNetworkLayerExampleUITestsLaunchTests.swift */; };
+		F9CA8FAF29451B750029B24B /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CA8FAE29451B750029B24B /* Character.swift */; };
+		F9CA8FB229451E7D0029B24B /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CA8FB129451E7D0029B24B /* HomeViewModel.swift */; };
+		F9CA8FB62945278D0029B24B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CA8FB52945278D0029B24B /* Constants.swift */; };
+		F9CA8FBC294533470029B24B /* ApiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CA8FBB294533470029B24B /* ApiError.swift */; };
+		F9CA8FC02945340D0029B24B /* GenericApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CA8FBF2945340D0029B24B /* GenericApi.swift */; };
+		F9CA8FC22945369D0029B24B /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CA8FC12945369D0029B24B /* Client.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,16 +38,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F99AF08E29460A5E00D81BB7 /* HomeViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewCell.swift; sourceTree = "<group>"; };
 		F9CA8F6F2945036D0029B24B /* GenericNetworkLayerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GenericNetworkLayerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9CA8F722945036D0029B24B /* GenericNetworkLayerExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericNetworkLayerExampleApp.swift; sourceTree = "<group>"; };
-		F9CA8F742945036D0029B24B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F9CA8F742945036D0029B24B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		F9CA8F762945036E0029B24B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F9CA8F792945036E0029B24B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F9CA8F7F2945036E0029B24B /* GenericNetworkLayerExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GenericNetworkLayerExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F9CA8F832945036E0029B24B /* GenericNetworkLayerExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericNetworkLayerExampleTests.swift; sourceTree = "<group>"; };
 		F9CA8F892945036E0029B24B /* GenericNetworkLayerExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GenericNetworkLayerExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F9CA8F8D2945036E0029B24B /* GenericNetworkLayerExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericNetworkLayerExampleUITests.swift; sourceTree = "<group>"; };
-		F9CA8F8F2945036E0029B24B /* GenericNetworkLayerExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericNetworkLayerExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F9CA8FAE29451B750029B24B /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		F9CA8FB129451E7D0029B24B /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		F9CA8FB52945278D0029B24B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F9CA8FBB294533470029B24B /* ApiError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiError.swift; sourceTree = "<group>"; };
+		F9CA8FBF2945340D0029B24B /* GenericApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericApi.swift; sourceTree = "<group>"; };
+		F9CA8FC12945369D0029B24B /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,12 +79,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F9C2207129466593004A7C47 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F9CA8FB52945278D0029B24B /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		F9CA8F662945036D0029B24B = {
 			isa = PBXGroup;
 			children = (
 				F9CA8F712945036D0029B24B /* GenericNetworkLayerExample */,
-				F9CA8F822945036E0029B24B /* GenericNetworkLayerExampleTests */,
-				F9CA8F8C2945036E0029B24B /* GenericNetworkLayerExampleUITests */,
 				F9CA8F702945036D0029B24B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,9 +108,12 @@
 		F9CA8F712945036D0029B24B /* GenericNetworkLayerExample */ = {
 			isa = PBXGroup;
 			children = (
-				F9CA8F722945036D0029B24B /* GenericNetworkLayerExampleApp.swift */,
-				F9CA8F742945036D0029B24B /* ContentView.swift */,
-				F9CA8F762945036E0029B24B /* Assets.xcassets */,
+				F9CA8F9C294503870029B24B /* Application */,
+				F9CA8F9D294503900029B24B /* Model */,
+				F9CA8FA0294503E90029B24B /* View */,
+				F9CA8FB029451E6E0029B24B /* ViewModel */,
+				F9CA8F9E294503940029B24B /* Networking */,
+				F9C2207129466593004A7C47 /* Utils */,
 				F9CA8F782945036E0029B24B /* Preview Content */,
 			);
 			path = GenericNetworkLayerExample;
@@ -110,21 +127,48 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		F9CA8F822945036E0029B24B /* GenericNetworkLayerExampleTests */ = {
+		F9CA8F9C294503870029B24B /* Application */ = {
 			isa = PBXGroup;
 			children = (
-				F9CA8F832945036E0029B24B /* GenericNetworkLayerExampleTests.swift */,
+				F9CA8F722945036D0029B24B /* GenericNetworkLayerExampleApp.swift */,
+				F9CA8F762945036E0029B24B /* Assets.xcassets */,
 			);
-			path = GenericNetworkLayerExampleTests;
+			path = Application;
 			sourceTree = "<group>";
 		};
-		F9CA8F8C2945036E0029B24B /* GenericNetworkLayerExampleUITests */ = {
+		F9CA8F9D294503900029B24B /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				F9CA8F8D2945036E0029B24B /* GenericNetworkLayerExampleUITests.swift */,
-				F9CA8F8F2945036E0029B24B /* GenericNetworkLayerExampleUITestsLaunchTests.swift */,
+				F9CA8FAE29451B750029B24B /* Character.swift */,
 			);
-			path = GenericNetworkLayerExampleUITests;
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F9CA8F9E294503940029B24B /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				F9CA8FBB294533470029B24B /* ApiError.swift */,
+				F9CA8FC12945369D0029B24B /* Client.swift */,
+				F9CA8FBF2945340D0029B24B /* GenericApi.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		F9CA8FA0294503E90029B24B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F9CA8F742945036D0029B24B /* HomeView.swift */,
+				F99AF08E29460A5E00D81BB7 /* HomeViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F9CA8FB029451E6E0029B24B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F9CA8FB129451E7D0029B24B /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +301,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9CA8F752945036D0029B24B /* ContentView.swift in Sources */,
+				F9CA8FAF29451B750029B24B /* Character.swift in Sources */,
+				F9CA8FB62945278D0029B24B /* Constants.swift in Sources */,
+				F9CA8FB229451E7D0029B24B /* HomeViewModel.swift in Sources */,
+				F9CA8FBC294533470029B24B /* ApiError.swift in Sources */,
+				F9CA8FC02945340D0029B24B /* GenericApi.swift in Sources */,
+				F9CA8F752945036D0029B24B /* HomeView.swift in Sources */,
+				F99AF08F29460A5E00D81BB7 /* HomeViewCell.swift in Sources */,
+				F9CA8FC22945369D0029B24B /* Client.swift in Sources */,
 				F9CA8F732945036D0029B24B /* GenericNetworkLayerExampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,7 +317,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9CA8F842945036E0029B24B /* GenericNetworkLayerExampleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +324,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9CA8F902945036E0029B24B /* GenericNetworkLayerExampleUITestsLaunchTests.swift in Sources */,
-				F9CA8F8E2945036E0029B24B /* GenericNetworkLayerExampleUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
